@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('running stages code from Jenkinsfile 1') {
             steps {
-                sh "1st stage"
+                sh "echo 1st stage"
             }
         }
                 stage('running stages code from Jenkinsfile 2') {
